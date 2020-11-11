@@ -1,0 +1,100 @@
+h1 {    /* first header */
+  background-color: #28abb9;
+  font-family: 'Xanh Mono', monospace;
+  text-align: center;
+  border-radius: 5px;
+  margin: 20px auto;
+  margin-top: 0px;
+  width: 700px;
+}
+
+.name { /* a little bit of myself text */
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+
+}
+
+body {
+	background-color: #a4b787;
+}
+
+.center{ /* picture */
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 150px;
+	height: 200px;
+	border-radius: 60%;
+	border-style: double;
+}
+
+h2{  /* follow me */
+	padding: 15px;
+	margin-top: 10px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+#digital { /* all links for media profiles */
+	font-family: 'Roboto', sans-serif;
+	font-size: 20;
+	list-style-type: none;
+	text-align: center;
+	background: white;
+	width: 700px;
+	border-radius: 5px;
+    margin: 20px auto;
+}
+
+.social-icon{ /* social icons */
+	display: inline-block;
+	margin: 10px;
+
+}
+
+.myself{ /* full paragraphs of myself */
+	font-family: 'Indie Flower', cursive;
+	list-style-type: none;
+	text-align: center;
+	padding: 10px;
+	margin: auto;
+	background: white;
+	width: 700px;
+	border-style: dotted;
+}
+
+.rights{  /*footer*/
+	text-align: center;
+
+}
+
+@media (max-width: 1000px){
+	.myself{
+		width: 200px;
+	}
+}
+
+@media (max-width: 1000px){
+	.h1{
+		width: 850px;
+	}
+}
+
+@media (max-width: 870px){
+	.h1{
+		width: 490px;
+	}
+}
+
+@media (max-width: 490px){
+	.h1{
+		width: 220px;
+	}
+}
+
+
+@media (max-width: 1000px){
+	#digital{
+		width: 200px;
+	}
+}
